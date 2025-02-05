@@ -90,7 +90,7 @@ def calculate(num1, num2, operation):
         return "Invalid operation"
 
 # Button to perform calculation
-if st.button("Calculated by Irfan 🚀", key="calculate_button"):
+if st.button("Calculate 🚀", key="calculate_button"):
     result = calculate(num1, num2, operation)
     st.markdown(f"<div class='stSuccess'>Result: {result}</div>", unsafe_allow_html=True)
 
