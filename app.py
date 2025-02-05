@@ -6,7 +6,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D3D&auto=format&fit=crop&w=2070&q=80");
+        background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
         background-size: cover;
         background-position: center;
     }
@@ -17,12 +17,9 @@ st.markdown(
         padding: 10px 24px;
         border-radius: 8px;
         border: none;
-        display: block;
-        margin: 0 auto;
     }
     .stButton button:hover {
-        background-color: #007BFF;
-        font-weight: bold;
+        background-color: #45a049;
     }
     .stSelectbox div {
         font-size: 18px;
@@ -47,13 +44,6 @@ st.markdown(
         padding: 20px;
         border-radius: 10px;
         margin: 20px;
-        text-align: center;
-    }
-    .name {
-        font-size: 24px;
-        font-weight: bold;
-        color: #007BFF; /* Best match color for your name */
-        margin-bottom: 20px;
     }
     </style>
     """,
@@ -62,9 +52,6 @@ st.markdown(
 
 # Main container for the app
 st.markdown("<div class='main'>", unsafe_allow_html=True)
-
-# Display your name "Irfan Haider" in the white box
-st.markdown("<div class='name'>Irfan Haider</div>", unsafe_allow_html=True)
 
 # Title of the application
 st.markdown("<h1>✨ Simple Arithmetic Calculator ✨</h1>", unsafe_allow_html=True)
