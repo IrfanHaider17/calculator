@@ -4,7 +4,6 @@ A lightweight and interactive **Streamlit web application** that performs basic 
 ➕ Addition | ➖ Subtraction | ✖️ Multiplication | ➗ Division  
 
 The app features a clean **UI with custom styling** and a background image to enhance user experience.  
-
 ---
 
 ## 🚀 Features
